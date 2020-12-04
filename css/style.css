@@ -1,0 +1,206 @@
+.navigation{
+    height: 50px;
+    background: #4e74a6;
+    mix-blend-mode: normal;
+    display: flex;
+    margin-left: 995px;
+}
+.navtext{
+    width: 100%;
+    display: inline;
+    color: white;
+    background-color: #4e74a6;
+    flex-direction: row;
+    margin: 32px;
+    list-style-type: none;
+}
+body{
+    overflow:auto;
+}
+.ul{
+    width:50%;
+    margin-left: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center;
+
+}
+li{
+    padding: center;
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap-reverse;
+    justify-content:flex-end;
+}
+.HeroImage{
+    position:absolute;
+    top: 140px;
+    right: 30px;
+}
+h1{
+    font-family: "ubuntu",serif;
+    color:black;
+    position:auto;
+    top:175px;
+    left:10px;
+    font-size: 36px;
+}
+p{
+    font-family: "ubuntu",serif;
+    color:black;
+    position:auto;
+    top:300px;
+    left:10px;
+}
+.iPhoneImage{
+    position:absolute;
+    width:498px;
+    height: 753px;
+    left: 53px;
+    top:827px;
+}
+.h2{
+    display:block;
+    text-shadow: 2px 2px 8px #91B0D9;
+    color: black;
+    position: absolute;
+    height:340px;
+    left:612px;
+    width:686px;
+    top:780px;
+    font-family: serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    }
+.p1{
+    position: absolute;
+    width:686px;
+    height:340px;
+    left:612px;
+    top:1015px;
+}
+.ExpSkills{
+    display:block;
+    text-shadow: 2px 2px 8px #91B0d9;
+    color: black;
+    position: absolute;
+    height: 78px;
+    left: 30px;
+    top: 1800px;
+    font-family: "ubuntu",serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.p2{
+    position:absolute;
+    width:926px;
+    height:42px;
+    left:30px;
+    top:1944px;
+    font-family: "Ubuntu", serif;
+    font-style:normal;
+    display:flex;
+    align-items: center;
+}
+.Exp{
+    display:block;
+    text-shadow: 2px 2px 8px #91B0d9;
+    position: absolute;
+    width:215px;
+    height:40px;
+    left: 30px;
+    top: 2100px;
+    font-family: "ubuntu", serif;
+    font-style: normal;
+    font-size:24px;
+    display: flex;
+    align-items: center;
+
+}
+.ExpImg{
+    position: absolute;
+    width: 961px;
+    height: 216px;
+    left: 280px;
+    top: 2100px;
+
+}
+.skills{
+    display:block;
+    text-shadow: 2px 2px 8px #91B0d9;
+    position: absolute;
+    width: 215px;
+    height: 40px;
+    left: 30px;
+    top: 2400px;
+    font-family: "ubuntu" , serif;
+    font-style: normal;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.SkillsImg{
+    position: absolute;
+    width: 1394px;
+    height: 433px;
+    left: 60px;
+    top: 2500px;
+}
+.Books{
+    display:block;
+    text-shadow: 2px 2px 8px #91B0d9;
+    position: absolute;
+    width: 215px;
+    height: 40px;
+    left: 30px;
+    top: 3050px;
+    font-family: "ubuntu",serif;
+    font-style: normal;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.Books1{
+    position: absolute;
+    width: 1274px;
+    height: 127px;
+    left: 84px;
+    top: 3150px;
+}
+.Books2{
+    position: absolute;
+    width: 1274px;
+    height: 127px;
+    left: 84px;
+    top: 3450px;
+}
+.footer{
+    position: absolute;
+    width:215px;
+    height:78px;
+    left: 142px;
+    top:3892px;
+    font-family: "Ubuntu" , serif;
+    font-style: normal;
+    align-items: center;
+}
+@media only screen and (max-width:600px){
+    body {
+        display:none;
+    }
+}
+@media only screen and (max-width:600px){
+    .navigation{
+        float:none;
+        width:100%;
+    }
+}
